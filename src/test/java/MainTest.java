@@ -1,4 +1,3 @@
-import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -12,8 +11,7 @@ public class MainTest extends BaseTest {
     }
 
     @Test
-    public void test() throws InterruptedException {
-        mainPage.bla("");
-//        Assert.assertEquals(mainPage.bla("Eight"), "Display is 8");
+    public void test() {
+        mainPage.bla();
     }
 }
